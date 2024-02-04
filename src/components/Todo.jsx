@@ -19,8 +19,9 @@ export default function Todo() {
             />
             <button type="submit">Add</button>
         </form>
+
       {todos.map((item) => (
-      <h3>{item}</h3>
+     <TodoItem key={item} item={item} />
       ))}  
     </div>
     );
