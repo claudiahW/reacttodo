@@ -1,10 +1,10 @@
-inline-header{
+.inline-header{
     color: grey;
     background-color: yellow;
     font-size: 40px;
 }
-outline-header{
-    color: grey;
-    background-color: yellow;
+.outline-header{
+    color: blue;
+    background-color: red;
     font-size: 40px;
 } 
