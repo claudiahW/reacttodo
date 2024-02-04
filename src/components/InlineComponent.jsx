@@ -1,8 +1,8 @@
-
-export default function InlineComponent(){
+import "../css/style.css";
+export default function InlineComponent() {
     return (
     <div>
-        <h1 >inline Component</h1>
+        <h1 className="header">Inline Component</h1>
         </div>
-    )
+    );
 }
